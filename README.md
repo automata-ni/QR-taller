@@ -17,13 +17,13 @@ Landing page movil para compartir las cuentas bancarias de Taller de Costura Mar
 Cuando GitHub Pages publique el sitio, la URL principal sera:
 
 ```text
-https://bodegaboloniatextil-dev.github.io/QR-taller/
+https://automata-ni.github.io/QR-taller/
 ```
 
 El QR estara disponible en:
 
 ```text
-https://bodegaboloniatextil-dev.github.io/QR-taller/qr.html
+https://automata-ni.github.io/QR-taller/qr.html
 ```
 
 Tambien se incluye el QR en PNG:
