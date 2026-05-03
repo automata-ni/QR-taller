@@ -128,14 +128,6 @@
       line-height: 0.94;
     }
 
-    .hero p {
-      margin: 11px 0 0;
-      max-width: 31ch;
-      color: rgba(255, 255, 255, 0.86);
-      font-size: 0.97rem;
-      line-height: 1.45;
-    }
-
     .location-row {
       display: flex;
       align-items: center;
@@ -208,6 +200,14 @@
       width: 19px;
       height: 19px;
       flex: 0 0 auto;
+    }
+
+    .payment-note {
+      margin: 16px 4px 0;
+      color: var(--muted);
+      font-size: 0.94rem;
+      line-height: 1.45;
+      text-align: center;
     }
 
     .account {
@@ -435,7 +435,6 @@
         <span>Taller de Costura</span>
         <span class="title-name">Marbelly</span>
       </h1>
-      <p>Selecciona la cuenta de tu banco y copia el número limpio para pegarlo en tu app.</p>
       <div class="location-row">
         <span class="location">Colonia Centroamérica</span>
         <a class="map-link" href="https://maps.app.goo.gl/bCTpL3Ty87wHpWgz9" target="_blank" rel="noopener">
@@ -455,6 +454,8 @@
       </svg>
       Ver catálogo de trabajos
     </a>
+
+    <p class="payment-note">Selecciona la cuenta de tu banco y copia el número limpio para pegarlo en tu app.</p>
 
     <section class="accounts" aria-label="Cuentas bancarias">
       <article class="account account--bac">
