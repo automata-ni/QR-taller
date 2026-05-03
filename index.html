@@ -47,11 +47,11 @@
     .hero {
       position: relative;
       overflow: hidden;
-      min-height: 196px;
-      padding: 24px 22px 20px;
+      min-height: 202px;
+      padding: 25px 22px 20px;
       border-radius: 22px;
       background:
-        linear-gradient(135deg, rgba(15, 118, 110, 0.96), rgba(14, 105, 129, 0.88)),
+        linear-gradient(135deg, rgba(86, 56, 104, 0.98), rgba(15, 118, 110, 0.9)),
         linear-gradient(90deg, rgba(255, 255, 255, 0.12) 50%, transparent 50%);
       box-shadow: var(--shadow);
       color: #fff;
@@ -99,23 +99,33 @@
 
     .overlock {
       position: absolute;
-      right: -12px;
-      top: 24px;
-      width: 170px;
+      right: -36px;
+      top: 12px;
+      width: 154px;
       height: 88px;
-      color: rgba(255, 255, 255, 0.42);
-      transform: rotate(-24deg);
+      color: rgba(255, 255, 255, 0.23);
+      transform: rotate(-26deg);
       pointer-events: none;
       z-index: -1;
     }
 
     h1 {
       margin: 0;
-      max-width: 14ch;
-      font-size: clamp(1.86rem, 9.2vw, 2.78rem);
+      max-width: 15ch;
+      font-size: clamp(1.76rem, 8.2vw, 2.55rem);
       line-height: 1.02;
       letter-spacing: 0;
       text-wrap: balance;
+    }
+
+    h1 span {
+      display: block;
+    }
+
+    h1 .title-name {
+      margin-top: 2px;
+      font-size: 1.2em;
+      line-height: 0.94;
     }
 
     .hero p {
@@ -421,7 +431,10 @@
         <path d="M10 62h160" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" opacity=".7"/>
         <path d="M18 34l18 28 18-28 18 28 18-28 18 28 18-28 18 28 18-28" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
-      <h1 id="page-title">Taller de Costura Marbelly</h1>
+      <h1 id="page-title">
+        <span>Taller de Costura</span>
+        <span class="title-name">Marbelly</span>
+      </h1>
       <p>Selecciona la cuenta de tu banco y copia el número limpio para pegarlo en tu app.</p>
       <div class="location-row">
         <span class="location">Colonia Centroamérica</span>
